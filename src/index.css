@@ -3,3 +3,26 @@
   font-family: 'Yekan Bakh';
   src: url('./Assets/Fonts/Yekan\ Bakh\ Regular.ttf') format('ttf');
 }
+
+body{
+  /* width: 1440px;
+  height: 1024px; */
+  flex-shrink: 0;
+  background: var(--background, #EEF6FF);
+}
+
+.Logo-img{
+ display: flex;
+ align-items: center;
+ position: relative;
+}
+
+.icon-logo {
+  width: 2.6875rem;
+  height: 2.6875rem;
+  flex-shrink: 0;
+  float: left;
+  
+}
+
+
