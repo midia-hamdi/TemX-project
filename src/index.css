@@ -5,8 +5,8 @@
 }
 
 body{
-  /* width: 90rem;
-  height: 64rem; */
+  width: 78rem;
+  height: 40rem;
   flex-shrink: 0;
   /* background: var(--gradient-1, linear-gradient(68deg, #EEF6FF 0%, #fff 100%)); */
   background:linear-gradient(90deg, #EEF6FF 75%, #fff 50%, #fff 100%);
