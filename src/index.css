@@ -46,13 +46,18 @@ body{
   padding-right: 1rem;
 }
 
+.user-container {
+  display: flex;
+  align-items: center;
+  margin: 7rem 2rem 0 0;
+}
 
 .image-user{
   display: flex;
   align-items: center;
   justify-content: center; /* Move content to the right */
   position: relative;
-  margin: 7rem 2rem 0 0;
+  /* margin: 7rem 2rem 0 0; */
   border-radius: 1.125rem;
   background: var(--non-selected-blue-all, #DFEEFF);
   width: 6.75rem;
@@ -95,5 +100,20 @@ body{
   line-height: 133.5%; /* 1.335rem */
   margin: 0 3rem 0 0;
 }
+
+
+.rectangles {
+  display: flex;
+  flex-direction: column; /* Arrange the rectangles vertically */
+}
+
+.rectangle {
+  width: 0.625rem;
+  height: 1.875rem;
+  flex-shrink: 0;
+  border-radius: 0.3125rem;
+  margin: 0 1rem 0.5rem 0; /* Adjust the margin to separate the rectangles */
+}
+
 
 
