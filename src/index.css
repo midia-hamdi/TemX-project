@@ -1,7 +1,7 @@
 /* font.css */
 @font-face {
   font-family: 'Yekan Bakh';
-  src: url('./Assets/Fonts/Yekan\ Bakh\ Regular.ttf') format('ttf');
+  src: url('./Assets/Fonts/Yekan.woff') format('woff');
 }
 
 body{
@@ -9,20 +9,40 @@ body{
   height: 1024px; */
   flex-shrink: 0;
   background: var(--background, #EEF6FF);
+  direction: rtl;
 }
 
-.Logo-img{
- display: flex;
- align-items: center;
- position: relative;
+.Logo-img {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Move content to the right */
+  position: relative;
+  margin: 2rem 2rem 0 0;
 }
 
 .icon-logo {
   width: 2.6875rem;
   height: 2.6875rem;
   flex-shrink: 0;
-  float: left;
   
 }
+
+.text-logo {
+  display: flex; 
+  align-items: center;
+  position: relative;
+  text-align: right;
+  font-family: Yekan Bakh;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 133.5%; /* 2.67rem */
+  background: var(--gradient-1, linear-gradient(68deg, #0066E2 32.63%, #1D82FF 70.87%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-right: 1rem;
+}
+
 
 
