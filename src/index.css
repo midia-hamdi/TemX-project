@@ -5,10 +5,12 @@
 }
 
 body{
-  /* width: 1440px;
-  height: 1024px; */
+  /* width: 90rem;
+  height: 64rem; */
   flex-shrink: 0;
-  background: var(--background, #EEF6FF);
+  /* background: var(--gradient-1, linear-gradient(68deg, #EEF6FF 0%, #fff 100%)); */
+  background:linear-gradient(90deg, #EEF6FF 75%, #fff 50%, #fff 100%);
+  /* background: var(--background, #EEF6FF); */
   direction: rtl;
 }
 
@@ -44,5 +46,54 @@ body{
   padding-right: 1rem;
 }
 
+
+.image-user{
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Move content to the right */
+  position: relative;
+  margin: 7rem 2rem 0 0;
+  border-radius: 1.125rem;
+  background: var(--non-selected-blue-all, #DFEEFF);
+  width: 6.75rem;
+  height: 6.75rem;
+  flex-shrink: 0;
+}
+
+.userimg{
+  display: flex;
+  width: 3.875rem;
+  height: 3.875rem;
+  padding: 0.20181rem 0.23288rem;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.textuser{
+  color: var(--black, #121212);
+  text-align: right;
+
+  /* title bold 24 px */
+  font-family: Yekan Bakh;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 133.5%; /* 2.0025rem */
+  margin: .5rem 3rem 0 0;
+}
+
+.secondtext{
+  color: var(--black, #121212);
+  text-align: right;
+
+  /* regular 16 px */
+  font-family: Yekan Bakh;
+  font-size: .90rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 133.5%; /* 1.335rem */
+  margin: 0 3rem 0 0;
+}
 
 
