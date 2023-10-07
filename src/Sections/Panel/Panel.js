@@ -4,6 +4,17 @@ import ImageUser from '../../Sections/Panel/ImageUser';
 import TextUser from './TextUser';
 import Rectangle from './Rectangle';
 import Item from './Item';
+import {cart, credit, donate, ereceipt, help, usercheck, user } from '../../Assets/Images';
+
+const items = [
+    { icon: <FontAwesomeIcon icon={user} />, text: 'مشخصات کاربری' },
+    { icon: <FontAwesomeIcon icon={cart} />, text: 'خرید و فروش' },
+    { icon: <FontAwesomeIcon icon={donate} />, text: 'کسب درآمد' },
+    { icon: <FontAwesomeIcon icon={credit} />, text: 'اطلاعات بانکی' },
+    { icon: <FontAwesomeIcon icon={usercheck} />, text: 'احراز هویت' },
+    { icon: <FontAwesomeIcon icon={ereceipt} />, text: 'تاریخچه سفارشات' },
+    { icon: <FontAwesomeIcon icon={help} />, text: 'پشتیبانی' },
+  ];
 
 export default function Panel() {
   return (
@@ -18,7 +29,11 @@ export default function Panel() {
         </div>
       </div>
       <TextUser />
-      <Item />
+      <div className="items">
+        {items.map((item, index) => (
+          <Item key={index} icon={item.icon} text={item.text} />
+        ))}
+      </div>
     </div>
   );
 }
