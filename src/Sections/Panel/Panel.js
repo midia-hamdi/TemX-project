@@ -3,6 +3,7 @@ import Logo from '../../Sections/Panel/Logo';
 import ImageUser from '../../Sections/Panel/ImageUser';
 import TextUser from './TextUser';
 import Rectangle from './Rectangle';
+import Item from './Item';
 
 export default function Panel() {
   return (
@@ -17,6 +18,7 @@ export default function Panel() {
         </div>
       </div>
       <TextUser />
+      <Item />
     </div>
   );
 }
