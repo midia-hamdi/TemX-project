@@ -4,16 +4,26 @@ import ImageUser from '../../Sections/Panel/ImageUser';
 import TextUser from './TextUser';
 import Rectangle from './Rectangle';
 import Item from './Item';
-import {cart, credit, donate, ereceipt, help, usercheck, user } from '../../Assets/Images';
+
+// Import images
+import User from '../../Assets/Images/user.svg';
+import Cart from '../../Assets/Images/cart.svg';
+import Donate from '../../Assets/Images/donate.svg';
+import Credit from '../../Assets/Images/creditcard.svg';
+import Usercheck from '../../Assets/Images/usercheck.png';
+import Ereceipt from '../../Assets/Images/ereceipt.svg';
+import Help from '../../Assets/Images/help.svg';
+
+
 
 const items = [
-    { icon: <FontAwesomeIcon icon={user} />, text: 'مشخصات کاربری' },
-    { icon: <FontAwesomeIcon icon={cart} />, text: 'خرید و فروش' },
-    { icon: <FontAwesomeIcon icon={donate} />, text: 'کسب درآمد' },
-    { icon: <FontAwesomeIcon icon={credit} />, text: 'اطلاعات بانکی' },
-    { icon: <FontAwesomeIcon icon={usercheck} />, text: 'احراز هویت' },
-    { icon: <FontAwesomeIcon icon={ereceipt} />, text: 'تاریخچه سفارشات' },
-    { icon: <FontAwesomeIcon icon={help} />, text: 'پشتیبانی' },
+    { icon: <img src={User} alt="User Icon" />, text: 'مشخصات کاربری' },
+    { icon: <img src={Cart} alt="Cart Icon" />, text: 'خرید و فروش' },
+    { icon: <img src={Donate} alt="Donate Icon" />, text: 'کسب درآمد' },
+    { icon: <img src={Credit} alt="Credit Icon" />, text: 'اطلاعات بانکی' },
+    { icon: <img src={Usercheck} alt="UserCheck Icon" />, text: 'احراز هویت' },
+    { icon: <img src={Ereceipt} alt="E-Receipt Icon" />, text: 'تاریخچه سفارشات' },
+    { icon: <img src={Help} alt="Help Icon" />, text: 'پشتیبانی' },
   ];
 
 export default function Panel() {
