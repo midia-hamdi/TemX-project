@@ -17,7 +17,7 @@ import Help from '../../Assets/Images/help.svg';
 
 
 const items = [
-    { icon: <img src={User} alt="User Icon" />, text: 'مشخصات کاربری' },
+    { icon: <img src={User} alt="User Icon" className='smalluser'/>, text: 'مشخصات کاربری' },
     { icon: <img src={Cart} alt="Cart Icon" />, text: 'خرید و فروش' },
     { icon: <img src={Donate} alt="Donate Icon" />, text: 'کسب درآمد' },
     { icon: <img src={Credit} alt="Credit Icon" />, text: 'اطلاعات بانکی' },

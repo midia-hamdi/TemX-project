@@ -120,15 +120,11 @@ body{
 .item {
   display: flex;
   align-items: center;
-  font-family: Yekan Bakh;
-  color: var(--light-blue, #0072FE);
-
-
+  margin-top: 0.5rem;
 }
 
 .item-icon {
   margin-right: 2rem; /* Adjust spacing between icon and text */
-  color: var(--light-blue, #0072FE);
   display: flex;
   width: 1.5rem;
   height: 1.5rem;
@@ -137,17 +133,28 @@ body{
 }
 
 .item-text{
-  margin-right: .5rem; /* Adjust spacing between icon and text */
+  margin-right: .8rem; /* Adjust spacing between icon and text */
   text-align: right;
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 133.5%; /* 1.335rem */
+  color: var(--light-blue, #0072FE);
+  font-family: Yekan Bakh;
 }
 
 .items{
-  margin-top: 3.5rem;
+  margin-top: 3.5rem; 
 }
+
+.smalluser{
+  width: 1.5rem; /* Adjust the desired width */
+  height: 1.5rem; /* Adjust the desired height */
+}
+
+
+
+
 
 
 
