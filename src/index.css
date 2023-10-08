@@ -5,12 +5,10 @@
 }
 
 body{
-  width: 78rem;
+  width: 60rem;
   height: 40rem;
   flex-shrink: 0;
-  /* background: var(--gradient-1, linear-gradient(68deg, #EEF6FF 0%, #fff 100%)); */
   background:linear-gradient(90deg, #EEF6FF 75%, #fff 50%, #fff 100%);
-  /* background: var(--background, #EEF6FF); */
   direction: rtl;
 }
 
@@ -120,7 +118,7 @@ body{
 .item {
   display: flex;
   align-items: center;
-  margin-top: 0.3rem;
+  margin-top: 0.2rem;
   position: relative; /* Add relative positioning to the parent */
   z-index: 1; /* Ensure the text and icon are above the pseudo-element */
   cursor: pointer; /* Change cursor on hover */
@@ -148,20 +146,21 @@ body{
   
 }
 
-.item:hover .item-icon,
-.item:hover .item-text {
-  color: #FFFFFF; 
-}
 
-.item-icon {
+
+.item-icon img {
   margin-right: 2rem; /* Adjust spacing between icon and text */
   display: flex;
   width: 1.5rem;
   height: 1.5rem;
   justify-content: center;
   align-items: center;
+  transition: filter 0.3s ease; /* Add transition for filter property */
 }
 
+.item:hover .item-icon img {
+  filter: brightness(0) invert(1); /* Change icon color to white on hover */
+}
 .item-text{
   margin-right: .8rem; /* Adjust spacing between icon and text */
   text-align: right;
@@ -174,13 +173,52 @@ body{
   transition: color 0.3s ease;
 }
 
+.item:hover .item-text {
+  color: #FFFFFF; 
+}
+
+
 .items{
-  margin-top: 3.5rem; 
+  margin-top: 2.5rem; 
 }
 
 .smalluser{
   width: 1.5rem; /* Adjust the desired width */
   height: 1.5rem; /* Adjust the desired height */
+}
+
+.Logout-img{
+  display: flex;
+  align-items: center;
+  margin-top: 6rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  font-family: Yekan Bakh;
+  
+}
+
+.icon-logout{
+  display: flex;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0.20313rem 0.14063rem;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.text-logout{
+  text-align: right;
+  /* bold 16 px */
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 133.5%; /* 1.335rem */
+  background: var(--sale-or-unsucces, linear-gradient(92deg, #E92323 -14.4%, #FF3939 91.65%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-right: .8rem;
 }
 
 

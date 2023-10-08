@@ -5,7 +5,7 @@ import TextUser from './TextUser';
 import Rectangle from './Rectangle';
 import Item from './Item';
 
-// Import images
+// Import images items
 import User from '../../Assets/Images/user.svg';
 import Cart from '../../Assets/Images/cart.svg';
 import Donate from '../../Assets/Images/donate.svg';
@@ -13,6 +13,9 @@ import Credit from '../../Assets/Images/creditcard.svg';
 import Usercheck from '../../Assets/Images/usercheck.png';
 import Ereceipt from '../../Assets/Images/ereceipt.svg';
 import Help from '../../Assets/Images/help.svg';
+
+import LogOut from './LogOut';
+
 
 
 
@@ -44,6 +47,7 @@ export default function Panel() {
           <Item key={index} icon={item.icon} text={item.text} />
         ))}
       </div>
+      <LogOut />
     </div>
   );
 }
