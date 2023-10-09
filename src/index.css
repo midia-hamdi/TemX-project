@@ -5,10 +5,10 @@
 }
 
 body{
-  width: 60rem;
-  height: 40rem;
+  /* width: 90rem;
+  height: 64rem; */
   flex-shrink: 0;
-  background:linear-gradient(90deg, #EEF6FF 75%, #fff 50%, #fff 100%);
+  background:linear-gradient(90deg, #EEF6FF 80%, #fff 50%, #fff 100%);
   direction: rtl;
 }
 
@@ -21,8 +21,8 @@ body{
 }
 
 .icon-logo {
-  width: 2.6875rem;
-  height: 2.6875rem;
+  width: 2.68rem;
+  height: 2.68rem;
   flex-shrink: 0;
   
 }
@@ -33,7 +33,7 @@ body{
   position: relative;
   text-align: right;
   font-family: Yekan Bakh;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 900;
   line-height: 133.5%; /* 2.67rem */
@@ -47,7 +47,7 @@ body{
 .user-container {
   display: flex;
   align-items: center;
-  margin: 7rem 2rem 0 0;
+  margin: 8rem 2rem 0 0;
 }
 
 .image-user{
@@ -118,7 +118,7 @@ body{
 .item {
   display: flex;
   align-items: center;
-  margin-top: 0.2rem;
+  margin-top: 0.4rem;
   position: relative; /* Add relative positioning to the parent */
   z-index: 1; /* Ensure the text and icon are above the pseudo-element */
   cursor: pointer; /* Change cursor on hover */
@@ -179,7 +179,7 @@ body{
 
 
 .items{
-  margin-top: 2.5rem; 
+  margin-top: 3.5rem; 
 }
 
 .smalluser{
@@ -210,7 +210,7 @@ body{
 .text-logout{
   text-align: right;
   /* bold 16 px */
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-style: normal;
   font-weight: 700;
   line-height: 133.5%; /* 1.335rem */
@@ -220,6 +220,40 @@ body{
   -webkit-text-fill-color: transparent;
   margin-right: .8rem;
 }
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--light-blue, #0072FE);
+  font-family: Yekan Bakh;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 133.5%;
+}
+
+.nav-options {
+  list-style-type: none;
+  display: flex;
+  gap: 2rem;
+  margin-right: 1rem;
+}
+
+.nav-options li {
+  
+}
+
+.date-time {
+  text-align: right;
+}
+
+img {
+  width: 24px;
+  height: 24px;
+}
+
+
 
 
 

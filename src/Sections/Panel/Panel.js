@@ -13,10 +13,7 @@ import Credit from '../../Assets/Images/creditcard.svg';
 import Usercheck from '../../Assets/Images/usercheck.png';
 import Ereceipt from '../../Assets/Images/ereceipt.svg';
 import Help from '../../Assets/Images/help.svg';
-
 import LogOut from './LogOut';
-
-
 
 
 const items = [
