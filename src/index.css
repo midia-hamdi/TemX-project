@@ -253,6 +253,13 @@ body{
   margin-right: 4rem;
 }
 
+.notification-icon {
+  margin-right: 2rem; /* Adjust the right margin as needed */
+  border-radius: 0.5rem;
+  background: var(--white, #FFF);
+  padding: 0.5rem; 
+  flex-shrink: 0;
+}
 
 
 

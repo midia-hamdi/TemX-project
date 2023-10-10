@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Notification from '../../Assets/Images/notification.svg';
 
+
 export default function NavBar() {
   const [currentDateTime, setCurrentDateTime] = useState(new Date());
 
@@ -24,20 +25,7 @@ export default function NavBar() {
   }
 
   function getPersianMonth(month) {
-    const months = [
-      'فروردین',
-      'اردیبهشت',
-      'خرداد',
-      'تیر',
-      'مرداد',
-      'شهریور',
-      'مهر',
-      'آبان',
-      'آذر',
-      'دی',
-      'بهمن',
-      'اسفند',
-    ];
+    const months = ['دی', 'بهمن', 'اسفند', 'فروردین', 'اردیبهشت', 'خرداد', 'تیر', 'مرداد', 'شهر', 'مهر', 'آبان', 'آذر']
     return months[month];
   }
 
@@ -51,7 +39,7 @@ export default function NavBar() {
         <li>سوالات متداول</li>
       </ul>
       <div className="date-time">{formattedDate}</div>
-      <img src={Notification} alt="Bell Icon" />
+      <img src={Notification} alt="Bell Icon" className='notification-icon'/>
     </div>
   );
 }
