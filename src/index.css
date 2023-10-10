@@ -8,7 +8,7 @@ body{
   /* width: 90rem;
   height: 64rem; */
   flex-shrink: 0;
-  background:linear-gradient(90deg, #EEF6FF 80%, #fff 50%, #fff 100%);
+  background:linear-gradient(90deg, #EEF6FF 80%, #fff 50%);
   direction: rtl;
 }
 
@@ -21,8 +21,8 @@ body{
 }
 
 .icon-logo {
-  width: 2.68rem;
-  height: 2.68rem;
+  width: 2.58rem;
+  height: 2.58rem;
   flex-shrink: 0;
   
 }
@@ -47,7 +47,7 @@ body{
 .user-container {
   display: flex;
   align-items: center;
-  margin: 8rem 2rem 0 0;
+  margin: 6rem 2rem 0 0;
 }
 
 .image-user{
@@ -58,8 +58,8 @@ body{
   /* margin: 7rem 2rem 0 0; */
   border-radius: 1.125rem;
   background: var(--non-selected-blue-all, #DFEEFF);
-  width: 6.75rem;
-  height: 6.75rem;
+  width: 6rem;
+  height: 6rem;
   flex-shrink: 0;
 }
 
@@ -79,11 +79,11 @@ body{
 
   /* title bold 24 px */
   font-family: Yekan Bakh;
-  font-size: 1.25rem;
+  font-size: 1.10rem;
   font-style: normal;
   font-weight: 900;
   line-height: 133.5%; /* 2.0025rem */
-  margin: .5rem 3rem 0 0;
+  margin: .2rem 2rem 0 0;
 }
 
 .secondtext{
@@ -96,7 +96,7 @@ body{
   font-style: normal;
   font-weight: 400;
   line-height: 133.5%; /* 1.335rem */
-  margin: 0 3rem 0 0;
+  margin: 0 2rem 0 0;
 }
 
 
@@ -107,10 +107,10 @@ body{
 
 .rectangle {
   width: 0.625rem;
-  height: 1.875rem;
+  height: 1.86rem;
   flex-shrink: 0;
   border-radius: 0.3125rem;
-  margin: 0 1rem 0.5rem 0; /* Adjust the margin to separate the rectangles */
+  margin: 0 1rem 0.3rem 0; /* Adjust the margin to separate the rectangles */
 }
 
 /* Add these styles to your CSS file */
@@ -146,8 +146,6 @@ body{
   
 }
 
-
-
 .item-icon img {
   margin-right: 2rem; /* Adjust spacing between icon and text */
   display: flex;
@@ -161,10 +159,11 @@ body{
 .item:hover .item-icon img {
   filter: brightness(0) invert(1); /* Change icon color to white on hover */
 }
+
 .item-text{
-  margin-right: .8rem; /* Adjust spacing between icon and text */
+  margin-right: .7rem; /* Adjust spacing between icon and text */
   text-align: right;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-style: normal;
   font-weight: 700;
   line-height: 133.5%; /* 1.335rem */
@@ -179,7 +178,7 @@ body{
 
 
 .items{
-  margin-top: 3.5rem; 
+  margin-top: 3rem; 
 }
 
 .smalluser{
@@ -190,9 +189,8 @@ body{
 .Logout-img{
   display: flex;
   align-items: center;
-  margin-top: 6rem;
+  margin-top: 3rem;
   margin-right: 2rem;
-  margin-bottom: 2rem;
   font-family: Yekan Bakh;
   
 }
@@ -210,7 +208,7 @@ body{
 .text-logout{
   text-align: right;
   /* bold 16 px */
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-style: normal;
   font-weight: 700;
   line-height: 133.5%; /* 1.335rem */
@@ -218,7 +216,7 @@ body{
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-right: .8rem;
+  margin-right: .7rem;
 }
 
 .navbar {
@@ -226,31 +224,32 @@ body{
   justify-content: center;
   align-items: center;
   color: var(--light-blue, #0072FE);
+  padding: .8rem 1.5rempx;
+/* secondary regular 24 px */
   font-family: Yekan Bakh;
   font-size: 1rem;
   font-style: normal;
-  font-weight: 500;
-  line-height: 133.5%;
+  font-weight: 400;
+  line-height: 133.5%; 
+  margin: 2rem 4rem 0 0;
+  gap: 2rem;
+
 }
 
 .nav-options {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
   display: flex;
-  gap: 2rem;
-  margin-right: 1rem;
 }
 
 .nav-options li {
-  
+  margin-right: 1.5rem;
+  font-weight: bold;
 }
 
 .date-time {
   text-align: right;
-}
-
-img {
-  width: 24px;
-  height: 24px;
 }
 
 

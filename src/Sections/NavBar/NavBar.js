@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Notification from '../../Assets/Images/notification.svg'
+import Notification from '../../Assets/Images/notification.svg';
 
 export default function NavBar() {
   const [currentDateTime, setCurrentDateTime] = useState(new Date());
@@ -8,11 +8,38 @@ export default function NavBar() {
     // Update the current date and time every second
     const intervalId = setInterval(() => {
       setCurrentDateTime(new Date());
-    }, 100000);
+    }, 1000);
 
     // Clear the interval when the component unmounts
     return () => clearInterval(intervalId);
   }, []);
+
+  const formattedDate = `${getPersianWeekday(currentDateTime.getDay())} ، ${currentDateTime.getDate()} ${getPersianMonth(
+    currentDateTime.getMonth()
+  )} ، ساعت: ${currentDateTime.getHours()}:${currentDateTime.getMinutes()}`;
+
+  function getPersianWeekday(weekday) {
+    const weekdays = ['یکشنبه', 'دوشنبه', 'سه‌شنبه', 'چهارشنبه', 'پنج‌شنبه', 'جمعه', 'شنبه'];
+    return weekdays[weekday];
+  }
+
+  function getPersianMonth(month) {
+    const months = [
+      'فروردین',
+      'اردیبهشت',
+      'خرداد',
+      'تیر',
+      'مرداد',
+      'شهریور',
+      'مهر',
+      'آبان',
+      'آذر',
+      'دی',
+      'بهمن',
+      'اسفند',
+    ];
+    return months[month];
+  }
 
   return (
     <div className="navbar">
@@ -23,10 +50,7 @@ export default function NavBar() {
         <li>قوانین و مقررات</li>
         <li>سوالات متداول</li>
       </ul>
-      <div className="date-time">
-        <span>{currentDateTime.toLocaleDateString('fa-IR')}</span>
-        <span>{currentDateTime.toLocaleTimeString('fa-IR')}</span>
-      </div>
+      <div className="date-time">{formattedDate}</div>
       <img src={Notification} alt="Bell Icon" />
     </div>
   );
