@@ -223,15 +223,16 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  top: 0;
   color: var(--light-blue, #0072FE);
-  padding: .8rem 1.5rempx;
 /* secondary regular 24 px */
   font-family: Yekan Bakh;
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   line-height: 133.5%; 
-  margin: 2rem 4rem 0 0;
+  margin: 2rem 17rem 0 0;
   gap: 2rem;
 
 }
@@ -239,17 +240,17 @@ body{
 .nav-options {
   list-style-type: none;
   padding: 0;
-  margin: 0;
   display: flex;
 }
 
 .nav-options li {
-  margin-right: 1.5rem;
-  font-weight: bold;
+  margin-right: 2rem;
+
 }
 
 .date-time {
   text-align: right;
+  margin-right: 4rem;
 }
 
 
