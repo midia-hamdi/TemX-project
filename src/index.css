@@ -294,6 +294,11 @@ body{
   
 }
 
+.rectanglespace {
+  margin-right: 10rem; /* Adjust the margin value to control the space between rectangles */
+}
+
+
 
 
 
