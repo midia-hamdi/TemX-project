@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from '../../Sections/Panel/Logo';
 import ImageUser from '../../Sections/Panel/ImageUser';
 import TextUser from './TextUser';
-import Rectangle from './Rectangle';
+import Rectangle from '../../Components/Rectangle';
 import Item from './Item';
 
 // Import images items

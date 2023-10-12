@@ -106,8 +106,8 @@ body{
 }
 
 .rectangle {
-  width: 0.625rem;
-  height: 1.86rem;
+  width: 0.50rem;
+  height: 1.6rem;
   flex-shrink: 0;
   border-radius: 0.3125rem;
   margin: 0 1rem 0.3rem 0; /* Adjust the margin to separate the rectangles */
@@ -260,6 +260,41 @@ body{
   padding: 0.5rem; 
   flex-shrink: 0;
 }
+
+.Text-Authentication {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  margin: 5rem 19rem 0 0;
+
+}
+
+.Text {
+  color: var(--black, #121212);
+  text-align: right;
+  /* heavy title 48 px */
+  font-family: Yekan Bakh;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 133.5%; /* 4.005rem */
+}
+
+.rectangle-row {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(-90deg);
+  top: 0;
+  margin: 8rem 23rem 0 0;
+  
+}
+
+
 
 
 
