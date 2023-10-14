@@ -282,21 +282,86 @@ body{
   line-height: 133.5%; /* 4.005rem */
 }
 
-.rectangle-row {
+.rectangle-container {
   display: flex;
+  flex-direction: row; /* تنظیم ترتیب افقی */
+  align-items: center; /* قرار دادن مربع‌ها در وسط افقی */
+  justify-content: center; /* قرار دادن مربع‌ها در وسط عمودی */
+  top: 0;
   position: absolute;
-  flex-direction: column;
+  margin: 10rem 20rem 0 0;
+}
+
+.small-rectangle {
+  display: flex;
   align-items: center;
   justify-content: center;
   transform: rotate(-90deg);
-  top: 0;
-  margin: 8rem 23rem 0 0;
+  margin: 0 0.1rem; /* تنظیم فاصله بین مربع‌های کوچیک */
+}
+
+.large-rectangle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 -0.8rem; /* ایجاد اتصال به مربع‌های کوچیک با استفاده از margin منفی */
+  margin-top: 1.3rem; /* تنظیم فاصله بین مربع‌های بزرگ و کوچیک */
   
 }
 
-.rectanglespace {
-  margin-right: 10rem; /* Adjust the margin value to control the space between rectangles */
+/* .level-text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  color: var(--black, #121212);
+  font-family: Yekan Bakh;
+  font-size: 0.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 133.5%; 
+  flex-direction: column; 
+  list-style-type: none;
+  margin: 12rem 19rem 0 0;
+}  */
+
+.level-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  color: var(--black, #121212);
+  font-family: Yekan Bakh;
+  font-size: 0.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 133.5%;
+  margin: 12rem 11.7rem 0 0;
 }
+
+.level-text ul {
+  list-style-type: none;
+  display: flex; /* Display the list items horizontally */
+  align-items: center;
+  justify-content: center;
+  top: 100%;
+}
+
+.level-text li {
+  margin: 0 5.4rem; /* Adjust the margin to control spacing between the items */
+  white-space: nowrap;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
 
 
 
