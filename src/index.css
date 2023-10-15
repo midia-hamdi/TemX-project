@@ -4,6 +4,8 @@
   src: url('./Assets/Fonts/Yekan.woff') format('woff');
 }
 
+
+
 body{
   /* width: 90rem;
   height: 64rem; */
@@ -250,7 +252,7 @@ body{
 
 .date-time {
   text-align: right;
-  margin-right: 4rem;
+  margin-right: 2rem;
 }
 
 .notification-icon {
@@ -276,55 +278,81 @@ body{
   text-align: right;
   /* heavy title 48 px */
   font-family: Yekan Bakh;
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 700;
   line-height: 133.5%; /* 4.005rem */
 }
 
 .rectangle-container {
   display: flex;
-  flex-direction: row; /* تنظیم ترتیب افقی */
-  align-items: center; /* قرار دادن مربع‌ها در وسط افقی */
-  justify-content: center; /* قرار دادن مربع‌ها در وسط عمودی */
+  align-items: center; 
   top: 0;
   position: absolute;
-  margin: 10rem 20rem 0 0;
+  width: 53.8125rem;
+  height: 12.4375rem;
+  flex-shrink: 0;
+  border-radius: 0.9375rem;
+  background: #FFF;
+  box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.01);
+  margin: 10rem 18rem 0 0 ;
 }
 
-.small-rectangle {
+.rectangle-auth{
+  display: flex;
+  align-items: center;
+
+  top: 0;
+  position: absolute;
+}
+
+
+
+.small-rectangle1,
+.small-rectangle2,
+.small-rectangle3 {
   display: flex;
   align-items: center;
   justify-content: center;
-  transform: rotate(-90deg);
-  margin: 0 0.1rem; /* تنظیم فاصله بین مربع‌های کوچیک */
+  top: 0;
+  position: absolute;
+  margin: 1rem 2rem 0 0;
+  width: 8.8125rem;
+  height: 8.8125rem;
+  flex-shrink: 0;
+  border-radius: 1.25rem;
+  transform: rotate(90deg); 
 }
 
-.large-rectangle {
+
+
+
+.large-rectangle1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 -0.8rem; /* ایجاد اتصال به مربع‌های کوچیک با استفاده از margin منفی */
-  margin-top: 1.3rem; /* تنظیم فاصله بین مربع‌های بزرگ و کوچیک */
+  top: 0;
+  /* margin-left: -0.8rem; */
+  margin: 1rem 2rem 0 0;
+  
+  /* width: 30.9375rem;
+  height: 0.1875rem;
+  flex-shrink: 0; */
   
 }
 
-/* .level-text{
+.large-rectangle2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
   top: 0;
-  color: var(--black, #121212);
-  font-family: Yekan Bakh;
-  font-size: 0.5rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 133.5%; 
-  flex-direction: column; 
-  list-style-type: none;
-  margin: 12rem 19rem 0 0;
-}  */
+  /* margin-left: -0.10rem; */
+  margin: 1rem 2rem 0 0;
+  /* width: 50.9375rem;
+  height: 0.1875rem;
+  flex-shrink: 0; */
+}
+
 
 .level-text {
   display: flex;
@@ -355,7 +383,106 @@ body{
   text-align: center;
 }
 
+.img-auth-container {
+  display: flex;
+  align-items: center; /* Vertically center align images */
+  justify-content: center; /* Distribute space evenly between images */
+}
 
+.img1{
+  display: flex;
+  position: absolute;
+  top: 0;
+  margin: 12rem 38rem 0 0;;
+  width: 8.8125rem;
+  height: 8.8125rem;
+  flex-shrink: 0;
+  border-radius: 1.25rem;
+  /* background: lightgray 50% / cover no-repeat; */
+
+  /* 1 */
+  /* box-shadow: 0px 19px 20px 0px rgba(13, 114, 255, 0.10); */
+}
+
+.img2{
+  display: flex;
+  position: absolute;
+  top: 0;
+  margin: 7.5rem 47rem 0 0;
+  width: 9.8125rem;
+  height: 9.8125rem;
+  flex-shrink: 0;
+  border-radius: 1.25rem;
+  z-index: 1;
+  /* 1 */
+
+}
+
+.img3{
+  display: flex;
+  position: absolute;
+  top: 0;
+  margin: 12rem 56rem 0 0;
+  width: 8.8125rem;
+  height: 8.8125rem;
+  flex-shrink: 0;
+  border-radius: 1.25rem;
+  /* background: lightgray 50% / cover no-repeat; */
+  /* box-shadow: 0px 0px 10px 0px rgba(13, 114, 255, 0.10); */
+}
+
+
+.text-level{
+  display: flex;
+  position: absolute;
+  top: 0;
+  margin: 15rem 19rem 0 0 ;
+  width: 6.125rem;
+  color: var(--non-selected-blue-in-menu, #4598FE);
+  text-align: right;
+
+  /* bold 20 */
+  font-family: Yekan Bakh;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 133.5%; /* 1.66875rem */
+}
+
+.paragraph{
+  display: flex;
+  position: absolute;
+  top: 0;
+  margin: 17rem 19rem 0 0 ;
+  width: 30.1875rem;
+  color: var(--non-selected-blue-in-menu, #4598FE);
+  text-align: justify;
+
+  /* regular 16 px */
+  font-family: Yekan Bakh;
+  font-size: 0.70rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 133.5%; /* 1.335rem */
+}
+
+.text-Specifications{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  position: absolute;
+  margin: 26rem 19rem 0 0;
+  color: var(--black, #121212);
+  text-align: right;
+
+  /* bold 20 */
+  font-family: Yekan Bakh;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 133.5%; /* 1.66875rem */
+}
 
 
 
