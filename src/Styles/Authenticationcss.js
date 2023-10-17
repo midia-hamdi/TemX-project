@@ -3,6 +3,8 @@ export const coloredRectangleStyle = {
     width: '0.8375rem',
     height: '2.6rem',
     transform: 'rotate(90deg)',
+    top: 0,
+    margin: '0.8rem 0.2rem 0 0',
 
 
     // ... other custom styles
@@ -13,5 +15,7 @@ export const coloredRectangleStyle = {
     width: '0.8375rem',
     height: '2.6rem',
     transform: 'rotate(90deg)',
+    top: 0,
+    margin: '0.8rem 3rem 0 0',
     // ... other custom styles
   };
