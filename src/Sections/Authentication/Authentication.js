@@ -11,8 +11,6 @@ export default function Authentication() {
   return (
     <div>
         <TextAuthentication />
-        
-            <div className="rectangle-container">
                 <div className='rectangle-auth'>
                     <Rectangle style={gradientRectangleStyle} className='small-rectangle1'/>
                     <Rectangle style={SizeRectangleStyle} className="large-rectangle1"/>
@@ -20,7 +18,7 @@ export default function Authentication() {
                     <Rectangle style={SizeRectangleStyle} className="large-rectangle2"/>
                     <Rectangle style={coloredRectangleStyle} className="small-rectangle3"/>
                 </div>
-            </div>
+            
             <Level texts={["سطح برنزی", "سطح نقره‌ای", "سطح طلایی"]}  />
             <ImgAuthentication />
             <TextLevel />

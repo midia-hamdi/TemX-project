@@ -1,10 +1,14 @@
-import React from 'react'
-import TextSpecifications from './TextSpecifications'
+import React from 'react';
+import TextSpecifications from './TextSpecifications';
+import FormsSpecifications from './FormsSpecifications';
 
-export default function Specifications() {
+function Specifications() {
   return (
     <div>
-        <TextSpecifications />
+      <TextSpecifications />
+      <FormsSpecifications />
     </div>
-  )
+  );
 }
+
+export default Specifications;

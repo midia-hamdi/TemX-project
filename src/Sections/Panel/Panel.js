@@ -40,8 +40,8 @@ export default function Panel() {
       </div>
       <TextUser />
       <div className="items">
-        {items.map((item, index) => (
-          <Item key={index} icon={item.icon} text={item.text} />
+        {items.map((item) => (
+          <Item icon={item.icon} text={item.text} />
         ))}
       </div>
       <LogOut />
