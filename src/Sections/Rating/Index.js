@@ -1,11 +1,11 @@
 import React from 'react';
-import TextAuthentication from './TextAuthentication';
-import Rectangle from '../../Components/Rectangle';
-import { coloredRectangleStyle, gradientRectangleStyle } from '../../Styles/Authenticationcss';
+import TextAuthentication from './TextAuthentication.js';
+import Rectangle from '../../Components/Rectangle.js';
+import { coloredRectangleStyle, gradientRectangleStyle } from '../../Styles/Authenticationcss.js';
 import { SizeRectangleStyle } from '../../Styles/SizeRectangle.js';
-import Level from './Level';
-import ImgAuthentication from './ImgAuthentication';
-import TextLevel from './TextLevel';
+import Level from './Level.js';
+import ImgAuthentication from './ImgAuthentication.js';
+import TextLevel from './TextLevel.js';
 
 export default function Authentication() {
   return (

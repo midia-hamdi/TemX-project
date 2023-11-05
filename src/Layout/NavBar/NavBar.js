@@ -1,7 +1,7 @@
 import React from 'react';
 import NavOption from './NavOption';
 import NotifIcon from './NotifIcon';
-import DataTimehook from '../../Utils/Hooks/DataTimehook';
+import DataTimehook from '../../Utils/DataTimes';
 
 export default function NavBar() {
   const formattedDate = DataTimehook(); // Call DataTimehook to get the formatted date

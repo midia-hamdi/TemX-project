@@ -1,12 +1,12 @@
 import React from 'react';
-import UserInterface from './Pages/Userinterface/UserInterface.js'
+import Authentication from './Pages/Home/Authentication'
 
 
 
 function App() {
   return (
     <div className="App">
-      <UserInterface />
+      <Authentication />
     </div>
   );
 }
