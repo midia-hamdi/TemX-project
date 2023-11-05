@@ -1,0 +1,198 @@
+.Logo-img {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Move content to the right */
+    position: relative;
+    margin: 2rem 2rem 0 0;
+    max-width: 100%;
+  }
+  
+  .icon-logo {
+    /* width: 2.58rem; */
+    height: 2.58rem;
+    flex-shrink: 0;
+    max-width: 100%;
+    
+  }
+  
+  .text-logo {
+    display: flex; 
+    align-items: center;
+    position: relative;
+    text-align: right;
+    font-family: Yekan Bakh;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 133.5%; /* 2.67rem */
+    background: var(--gradient-1, linear-gradient(68deg, #0066E2 32.63%, #1D82FF 70.87%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-right: 1rem;
+  }
+  
+  .user-container {
+    display: flex;
+    align-items: center;
+    margin: 6rem 2rem 0 0;
+  }
+  
+  .image-user{
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Move content to the right */
+    position: relative;
+    /* margin: 7rem 2rem 0 0; */
+    border-radius: 1.125rem;
+    background: var(--non-selected-blue-all, #DFEEFF);
+    width: 6rem;
+    height: 6rem;
+    flex-shrink: 0;
+    max-width: 100%;
+  }
+  
+  .userimg{
+    display: flex;
+    width: 3.875rem;
+    height: 3.875rem;
+    padding: 0.20181rem 0.23288rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  
+  .textuser{
+    color: var(--black, #121212);
+    text-align: right;
+    /* title bold 24 px */
+    font-family: Yekan Bakh;
+    font-size: 1.10rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 133.5%; /* 2.0025rem */
+    margin: .2rem 2rem 0 0;
+  }
+  
+  .secondtext{
+    color: var(--black, #121212);
+    text-align: right;
+  
+    /* regular 16 px */
+    font-family: Yekan Bakh;
+    font-size: .90rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133.5%; /* 1.335rem */
+    margin: 0 2rem 0 0;
+  }
+  
+  
+  .rectangles {
+    display: flex;
+    flex-direction: column; 
+    
+  }
+  
+  .rectangle {
+    width: 0.50rem;
+    height: 1.6rem;
+    flex-shrink: 0;
+    border-radius: 0.3125rem;
+    margin: 0 1rem 0.3rem 0; 
+    
+  }
+  
+  /* Add these styles to your CSS file */
+  
+  .item{
+    display: flex;
+    align-items: center;
+    margin-top: 0.4rem;
+    position: relative; /* Add relative positioning to the parent */
+    width: 12.25rem;
+    height: 2.5rem;
+  }
+  
+  .item:hover::before {
+    content: "";
+    position: absolute;
+    background: var(--gradient-1, linear-gradient(68deg, #0066E2 32.63%, #1D82FF 70.87%));
+    opacity: 1; 
+    border-radius: 0.625rem; 
+    z-index: -1; 
+    margin-right: 1.3rem;
+    width: 10.5rem;
+    height: 2.5rem;
+  }
+  
+  .item-icon img {
+    margin-right: 2rem; 
+    display: flex;
+    width: 1.5rem;
+    height: 1.5rem;
+    transition: filter 0.3s ease; 
+  }
+  
+  .item:hover .item-icon img {
+    filter: brightness(0) invert(1); /* Change icon color to white on hover */
+  }
+  
+  .item-text{
+    margin-right: .7rem; /* Adjust spacing between icon and text */
+    text-align: right;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 133.5%; /* 1.335rem */
+    color: var(--light-blue, #0072FE);
+    font-family: Yekan Bakh;
+    transition: color 0.3s ease;
+  }
+  
+  .item:hover .item-text {
+    color: #FFFFFF; 
+  }
+  
+  
+  .items{
+    margin-top: 3rem; 
+  }
+  
+  .smalluser{
+    width: 1.5rem; /* Adjust the desired width */
+    height: 1.5rem; /* Adjust the desired height */
+  }
+  
+  .Logout-img{
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+    margin-right: 2rem;
+    font-family: Yekan Bakh;
+    
+  }
+  
+  .icon-logout{
+    display: flex;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0.20313rem 0.14063rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  
+  .text-logout{
+    text-align: right;
+    /* bold 16 px */
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 133.5%; /* 1.335rem */
+    background: var(--sale-or-unsucces, linear-gradient(92deg, #E92323 -14.4%, #FF3939 91.65%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-right: .7rem;
+  }

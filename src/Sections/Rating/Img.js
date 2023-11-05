@@ -3,7 +3,7 @@ import Img1 from '../../Assets/Images/Artboard 1 copy 2.png';
 import Img2 from '../../Assets/Images/Artboard 1 copy.png';
 import Img3 from '../../Assets/Images/Artboard 1.png';
 
-export default function ImgAuthentication() {
+export default function Img() {
   return (
     <div className="img-auth-container">
       <img src={Img1} alt="Image 1" className="img1" />

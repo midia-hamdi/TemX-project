@@ -4,6 +4,7 @@ import ImageUser from '../../Layout/Panel/ImageUser';
 import TextUser from './TextUser';
 import Rectangle from '../../Components/Rectangle';
 import Item from './Item';
+import '../Panel/Style/Style.css'
 
 // Import images items
 import User from '../../Assets/Images/user.svg';

@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    color: var(--light-blue, #0072FE);
+  /* secondary regular 24 px */
+    font-family: Yekan Bakh;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133.5%; 
+    margin: 2rem 17rem 0 0;
+    gap: 2rem;
+  
+  }
+  
+  .nav-options {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-options li {
+    margin-right: 2rem;
+  
+  }
+  
+  .date-time {
+    text-align: right;
+    margin-right: 3rem;
+  }
+  
+  .notification-icon {
+    margin-right: 3rem; /* Adjust the right margin as needed */
+    border-radius: 0.5rem;
+    background: var(--white, #FFF);
+    padding: 0.5rem; 
+    flex-shrink: 0;
+  }

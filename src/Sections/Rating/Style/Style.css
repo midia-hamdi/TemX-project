@@ -1,0 +1,189 @@
+.Text-Authentication {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    margin: 5rem 19rem 0 0;
+  
+  }
+  
+  .Text {
+    color: var(--black, #121212);
+    text-align: right;
+    /* heavy title 48 px */
+    font-family: Yekan Bakh;
+    font-size: 1.7rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 133.5%; /* 4.005rem */
+  }
+  
+  /* .rectangle-container {
+    display: flex;
+    top: 0;
+    position: absolute;
+    flex-direction: row;
+    width: 55.8125rem;
+    height: 14.4375rem;
+    flex-shrink: 0;
+    border-radius: 0.9375rem;
+    background: #FFF;
+    box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.01);
+    margin: 10rem 19rem 0 0 ;
+  } */
+  
+  .rectangle-auth{
+    display: flex;
+    top: 0;
+    position: absolute;
+    width: 55.8125rem;
+    height: 14.4375rem;
+    flex-shrink: 0;
+    border-radius: 0.9375rem;
+    background: #FFF;
+    box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.01);
+    margin: 10rem 19rem 0 0 ;
+  }
+  
+  .small-rectangle1,
+  .small-rectangle2,
+  .small-rectangle3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 8.8125rem;
+    height: 8.8125rem;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+  }
+  
+  .large-rectangle1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 30.9375rem;
+    height: 0.1875rem;
+    flex-shrink: 0;
+  }
+  
+  .large-rectangle2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+  }
+  
+  
+  .level-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    color: var(--black, #121212);
+    font-family: Yekan Bakh;
+    font-size: 0.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133.5%;
+    margin: 12.5rem 13.2rem 0 0;
+  }
+  
+  .level-text ul {
+    list-style-type: none;
+    display: flex; /* Display the list items horizontally */
+    align-items: center;
+    justify-content: center;
+    top: 100%;
+  }
+  
+  .level-text li {
+    margin: 0 5.4rem ; /* Adjust the margin to control spacing between the items */
+    white-space: nowrap;
+    text-align: center;
+  }
+  
+  .img-auth-container {
+    display: flex;
+    align-items: center; /* Vertically center align images */
+    justify-content: center; /* Distribute space evenly between images */
+  }
+  
+  .img1{
+    display: flex;
+    position: absolute;
+    top: 0;
+    margin: 12rem 40rem 0 0;;
+    width: 9rem;
+    height: 9rem;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+    /* background: lightgray 50% / cover no-repeat; */
+  
+    /* 1 */
+    /* box-shadow: 0px 19px 20px 0px rgba(13, 114, 255, 0.10); */
+  }
+  
+  .img2{
+    display: flex;
+    position: absolute;
+    top: 0;
+    margin: 7.5rem 50rem 0 0;
+    width: 10rem;
+    height: 10rem;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+    z-index: 1;
+    /* 1 */
+  
+  }
+  
+  .img3{
+    display: flex;
+    position: absolute;
+    top: 0;
+    margin: 12rem 59rem 0 0;
+    width: 9rem;
+    height: 9rem;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+    /* background: lightgray 50% / cover no-repeat; */
+    /* box-shadow: 0px 0px 10px 0px rgba(13, 114, 255, 0.10); */
+  }
+  
+  
+  .text-level{
+    display: flex;
+    position: absolute;
+    top: 0;
+    margin: 15rem 21rem 0 0 ;
+    width: 6.125rem;
+    color: var(--non-selected-blue-in-menu, #4598FE);
+    text-align: right;
+    /* bold 20 */
+    font-family: Yekan Bakh;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 133.5%; /* 1.66875rem */
+  }
+  
+  .paragraph{
+    display: flex;
+    position: absolute;
+    top: 0;
+    margin: 17.5rem 21rem 0 0 ;
+    width: 30.1875rem;
+    color: var(--non-selected-blue-in-menu, #4598FE);
+    text-align: justify;
+  
+    /* regular 16 px */
+    font-family: Yekan Bakh;
+    font-size: 0.80rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133.5%; /* 1.335rem */
+  }

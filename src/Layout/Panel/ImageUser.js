@@ -4,8 +4,7 @@ import Userimg from '../../Assets/Images/user.svg'
 export default function ImageUser() {
   return (
     <div className='image-user'>
-        <img src={Userimg} className='userimg'></img>
-        
+        <img src={Userimg} className='userimg'></img> 
     </div>
   )
 }
