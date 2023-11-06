@@ -196,3 +196,14 @@
     -webkit-text-fill-color: transparent;
     margin-right: .7rem;
   }
+
+  @media screen and (max-width: 992px) {
+    body{
+      background:linear-gradient(90deg, #EEF6FF 75%, #fff 50%);
+    }
+    .item-text{
+      font-size: 0.8rem;
+    }
+  
+  }
+
