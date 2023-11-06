@@ -1,6 +1,7 @@
 import React from 'react';
 import TextSpecifications from './TextSpecifications';
 import FormsSpecifications from './FormsSpecifications';
+import '../../Sections/Specifications/Style/Style.css'
 
 function Specifications() {
   return (
