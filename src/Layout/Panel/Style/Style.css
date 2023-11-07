@@ -197,7 +197,7 @@
     margin-right: .7rem;
   }
 
-  @media screen and (max-width: 992px) {
+  @media screen and (min-width: 992px) and (max-width: 1000px) {
     body{
       background:linear-gradient(90deg, #EEF6FF 75%, #fff 50%);
     }

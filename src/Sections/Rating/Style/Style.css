@@ -57,9 +57,10 @@
     height: 8.8125rem;
     flex-shrink: 0;
     border-radius: 1.25rem;
+    margin: 2rem 2rem 0 0 ;
   }
   
-  .large-rectangle1 {
+  /* .large-rectangle1 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -74,6 +75,31 @@
     align-items: center;
     justify-content: center;
     position: absolute;
+  } */
+
+  .SizeRectangleStyle{
+    background: var(--non-selected-blue-all, #DFEEFF);
+    width: 11.3125rem;
+    height: 0.1875rem;
+    top: 0;
+    margin: 2rem 0.4rem 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    flex-shrink: 0;
+  }
+  .SizeRectangleStyle1{
+    background: var(--non-selected-blue-all, #DFEEFF);
+    width: 11.3125rem;
+    height: 0.1875rem;
+    top: 0;
+    margin: 2rem 1rem 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    flex-shrink: 0;
   }
   
   
@@ -188,7 +214,9 @@
     line-height: 133.5%; /* 1.335rem */
   }
 
-  @media screen and (min-width: 992px) {
+  
+
+  @media screen and (min-width: 992px) and (max-width: 1000px){
     body{
       background:linear-gradient(90deg, #EEF6FF 75%, #fff 50%);
     }
@@ -199,22 +227,45 @@
 
     .rectangle-auth{
       width: 41rem;
-      height: 14.4375rem;
+      height: 12.4375rem;
       margin-right: 18rem;
     }
 
     .small-rectangle1,
     .small-rectangle2,
     .small-rectangle3 {
-      width: 1rem;
-      height: 1rem;
+      width: 0.5rem;
+      height: 0.5rem;
+      margin-right: 1rem;
     }
 
-    .paragraph{
-      font-size: 0.5rem;
-      font-weight: 400;
-      line-height: 133.5%; /* 1.335rem */
-    }
+      .paragraph{
+        font-size: 0.5rem;
+        font-weight: 400;
+        line-height: 133.5%; /* 1.335rem */
+      }
 
+      .img1{
+        width: 7rem;
+        height: 7rem;
+        flex-shrink: 0;
+        margin: 14rem 34rem 0 0;;
+      }
+      
+      .img2{
+        width: 9rem;
+        height: 9rem;
+        z-index: 1;
+        margin: 9rem 41rem 0 0;
+        /* 1 */
+      
+      }
+      
+      .img3{
+        width: 7rem;
+        height: 7rem;
+        flex-shrink: 0;
+        margin: 14rem 48rem 0 0;;
+      }
 
   }
